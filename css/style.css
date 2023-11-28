@@ -22,9 +22,40 @@
     font-size: 30px;
     transition: 0.5s;
 }
-.carousel {
-    width: 30rem;
-    display: flex;
-    justify-content: center;
+.mi-carrusel {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px; /* Puedes ajustar esto según tus necesidades */
+}
+.carousel-item img {
+    width: 100%;  /* Ajusta el ancho al 100% del contenedor */
+    height: 800px; /* Altura fija, ajusta según tus necesidades */
+    object-fit: cover; /* Esto asegura que la imagen cubra el área sin distorsionarse */
+}
+
+section h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+footer div h5{
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+}
+footer div a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+
+}
+footer div a:hover{
+    color: black;
+}
+.list-unstyled{
     text-align: center;
 }
